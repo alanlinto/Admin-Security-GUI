@@ -1,0 +1,11 @@
+*********************RSA************************
+Step 1 : Pick 2 prime numbers p and q.
+Step 2 : Multiply both to generate a public key parameter n.
+Step 3 : Pick another public key paramter e from values {3, 5, 17, 65537}.
+Step 4 : Pick all the parameters n and e so that the public key will be (n, e).
+Step 5 : Choose a message m to encrypt and transmmit.
+Step 6 : Compute r as (p - 1) * (q - 1), since it is used for encryption.
+Step 7 : Compute the private key d as e^-1 % r or e^-1 mod r.
+Step 8 : The encrypted message/ciphertext c is calculated as m^e % n or m^e mod n.
+Step 9 : The decrypted message.plaintext m' is calculated as c^d % n or c^d mod n.
+Step 10 : There is no Step 10. 
