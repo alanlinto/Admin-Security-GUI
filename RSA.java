@@ -1,7 +1,9 @@
-//import java.io.*;
-
 public class RSA {
-    public static void main(String[] args) {
-        System.out.println("HAIL TO RSA !!!!!");
+    private long p, q, n;
+    private double e, d;
+    private String m, c;
+
+    public RSA() {
+
     }
 }
