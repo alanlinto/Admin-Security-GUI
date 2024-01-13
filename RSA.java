@@ -1,6 +1,9 @@
+import java.math.BigDecimal;
+import java.math.BigInteger;
+
 public class RSA {
-    private long p, q, n;
-    private double e, d;
+    private BigInteger p, q, n;
+    private BigDecimal e, d;
     private String m, c;
 
     public RSA() {

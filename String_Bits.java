@@ -1,4 +1,4 @@
-public class StringToBits {
+public class String_Bits {
     public String stringToBits(String input) {
         StringBuilder binaryRepresentation = new StringBuilder();
 
